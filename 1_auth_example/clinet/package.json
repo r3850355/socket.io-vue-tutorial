@@ -1,0 +1,35 @@
+{
+  "name": "fblogin",
+  "version": "1.0.0",
+  "description": "A Quasar Framework app",
+  "productName": "Quasar App",
+  "cordovaId": "org.cordova.quasar.app",
+  "author": "Ren Zhou <r3850355@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@feathersjs/authentication-client": "^1.0.2",
+    "@feathersjs/authentication-oauth1": "^1.0.3",
+    "@feathersjs/feathers": "^3.1.5",
+    "@feathersjs/rest-client": "^1.4.0",
+    "@feathersjs/socketio-client": "^1.1.0",
+    "cookie-storage": "^3.1.0",
+    "passport-facebook": "^2.1.1",
+    "socket.io-client": "^2.1.1"
+  },
+  "devDependencies": {
+    "quasar-cli": "^0.16.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
